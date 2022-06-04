@@ -26,8 +26,8 @@ public class CatalogController {
     private final ModelMapper modelMapper;
 
     @GetMapping("/health_check")
-    public String healthCheck(HttpServletRequest request) {
-        return "It's Working in catalog-service on Port = " + request.getServerPort();
+    public String healthCheck() {
+        return "It's Working in catalog-service on Port = " + env.getProperty("local.server.port");
     }
 
     @GetMapping("/catalog")
