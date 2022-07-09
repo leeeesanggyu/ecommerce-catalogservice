@@ -1,4 +1,4 @@
-package com.catalogservice.Controller;
+package com.catalogservice.controller;
 
 import com.catalogservice.domain.dto.CatalogRes;
 import com.catalogservice.domain.entity.CatalogEntity;
@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.List;
 

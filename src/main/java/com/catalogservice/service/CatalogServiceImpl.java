@@ -1,6 +1,6 @@
 package com.catalogservice.service;
 
-import com.catalogservice.Repository.CatalogRepository;
+import com.catalogservice.repository.CatalogRepository;
 import com.catalogservice.domain.entity.CatalogEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.env.Environment;

@@ -1,4 +1,4 @@
-package com.catalogservice.Repository;
+package com.catalogservice.repository;
 
 import com.catalogservice.domain.entity.CatalogEntity;
 import org.springframework.data.repository.CrudRepository;
